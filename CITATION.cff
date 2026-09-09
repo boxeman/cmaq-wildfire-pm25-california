@@ -4,6 +4,8 @@ title: "Reproducibility package for evaluating CMAQ representation of wildfire P
 version: 1.0.0
 date-released: 2026-09-09
 type: software
+doi: 10.5281/zenodo.22677978
+repository-code: "https://github.com/boxeman/cmaq-wildfire-pm25-california"
 abstract: "Frozen data, code, fold assignments, metrics, figures, and recalculated tables supporting a California fire-season evaluation of CMAQ PM2.5 and a leakage-resistant Random Forest diagnostic."
 authors:
   - given-names: Jose
@@ -58,4 +60,3 @@ keywords:
   - California
   - Random Forest
   - reproducibility
-

@@ -1,8 +1,10 @@
 # CMAQ wildfire PM2.5 evaluation in California
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22677978.svg)](https://doi.org/10.5281/zenodo.22677978)
+
 This repository contains the frozen data, code, fold assignments, diagnostic outputs, and recalculated tables supporting the manuscript *Evaluating CMAQ Representation of Wildfire PM2.5 in California (2008–2018): Regime-Dependent Performance and Nonlinear Error Structure*.
 
-**Archive status:** Zenodo DOI pending archival of GitHub release `v1.0.0`.
+**Archive status:** GitHub release `v1.0.0` is archived in Zenodo at [https://doi.org/10.5281/zenodo.22677978](https://doi.org/10.5281/zenodo.22677978). The all-versions concept DOI is [https://doi.org/10.5281/zenodo.22677977](https://doi.org/10.5281/zenodo.22677977).
 
 ## Study scope
 
@@ -47,7 +49,11 @@ The frozen input SHA-256 is `f2e278ad52373f3a1a6f3d5b01f20f38d9c948d261ea34fe7e4
 
 ## Citation
 
-Please cite the archived Zenodo release. The DOI will be added here after Zenodo processes release `v1.0.0`.
+Please cite the archived version used for the manuscript:
+
+> Perez-Chavez, J., et al. (2026). *Reproducibility package for evaluating CMAQ representation of wildfire PM2.5 in California 2008–2018* (Version 1.0.0). Zenodo. https://doi.org/10.5281/zenodo.22677978
+
+The version DOI identifies the exact frozen release. The concept DOI, `10.5281/zenodo.22677977`, resolves to the latest archived version.
 
 ## Data provenance
 
