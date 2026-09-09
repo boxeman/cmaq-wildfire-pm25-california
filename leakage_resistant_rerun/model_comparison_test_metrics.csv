@@ -1,0 +1,7 @@
+analysis,model,feature_set,n,r2_coefficient_of_determination,pearson_r,rmse_ug_m3,mae_ug_m3,mean_residual_pred_minus_actual_ug_m3
+primary,leakage_resistant_random_forest,cmaq_fire_pm25 | latitude | longitude | year | month | dayofyear | distance_to_fire_km | distance_to_fire_missing | n_obs_records,37430,0.710609592205282,0.844377641641812,5.82381530520488,3.4353577756763776,0.17111726891840495
+primary,training_mean_baseline,none,37430,-1.0185302266041418e-06,-1.9779438050546615e-17,10.82594331322554,4.98809572914287,-0.010925780933950514
+primary,linear_regression,cmaq_fire_pm25 | latitude | longitude | year | month | dayofyear | distance_to_fire_km | distance_to_fire_missing | n_obs_records,37430,0.599740161397079,0.778268110446465,6.849147759036191,4.292820671272608,0.13305183549235935
+primary,fire_only_random_forest,cmaq_fire_pm25,37430,0.591764692177364,0.7695429280623837,6.917048317660774,4.321572418540632,0.10138831195404611
+component_sensitivity,no_fire_component_sensitivity_rf,cmaq_nofire_pm25 | latitude | longitude | year | month | dayofyear | distance_to_fire_km | distance_to_fire_missing | n_obs_records,37430,0.33543425598117316,0.5806691004498697,8.825402129405578,3.779792832897348,0.034758224300104966
+raw_extreme_sensitivity,random_forest_including_quarantined_extremes,cmaq_fire_pm25 | latitude | longitude | year | month | dayofyear | distance_to_fire_km | distance_to_fire_missing | n_obs_records,37433,0.38143591392624754,0.8284538907119366,9.439690530006692,3.508615786174521,0.3162780989789439

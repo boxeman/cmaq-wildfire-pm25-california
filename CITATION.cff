@@ -1,0 +1,61 @@
+cff-version: 1.2.0
+message: "If you use this reproducibility package, please cite the archived Zenodo release."
+title: "Reproducibility package for evaluating CMAQ representation of wildfire PM2.5 in California 2008–2018"
+version: 1.0.0
+date-released: 2026-09-09
+type: software
+abstract: "Frozen data, code, fold assignments, metrics, figures, and recalculated tables supporting a California fire-season evaluation of CMAQ PM2.5 and a leakage-resistant Random Forest diagnostic."
+authors:
+  - given-names: Jose
+    family-names: Perez-Chavez
+    affiliation: Howard University
+  - given-names: Daja
+    family-names: Elum
+    affiliation: Howard University
+  - given-names: Olutoyosi
+    family-names: Oyelowo
+    affiliation: Howard University
+  - given-names: Eimy X.
+    family-names: Bonilla
+    affiliation: Howard University
+  - given-names: Samuel
+    family-names: Kane
+    affiliation: Howard University
+  - given-names: Rachel E.
+    family-names: Connolly
+    affiliation: University of California, Los Angeles
+  - given-names: Miriam E.
+    family-names: Marlier
+    affiliation: University of California, Los Angeles
+  - given-names: Jihoon
+    family-names: Jung
+    affiliation: University of North Carolina at Chapel Hill
+  - given-names: Mohammad
+    family-names: Al-Hamdan
+    affiliation: University of Mississippi
+  - given-names: Claire L.
+    family-names: Schollaert
+    affiliation: University of California, Los Angeles
+  - given-names: John C.
+    family-names: Flunker
+    affiliation: University of Iowa
+  - given-names: Huikyo
+    family-names: Lee
+    affiliation: NASA Jet Propulsion Laboratory
+  - given-names: Sambit
+    family-names: Bhattacharya
+    affiliation: Fayetteville State University
+  - given-names: Christopher
+    family-names: Blaszczak-Boxe
+    affiliation: Howard University
+  - given-names: Joseph L.
+    family-names: Wilkins
+    affiliation: Howard University
+keywords:
+  - wildfire PM2.5
+  - CMAQ
+  - model evaluation
+  - California
+  - Random Forest
+  - reproducibility
+

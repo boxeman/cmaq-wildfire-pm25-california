@@ -1,0 +1,14 @@
+metric,definition
+Error,CMAQ total PM2.5 minus observed PM2.5
+Pearson r,Linear correlation between paired observed and CMAQ total PM2.5
+R-squared,Square of Pearson r for descriptive tables; not the ML coefficient of determination
+NMB,100 * sum(CMAQ-observed) / sum(observed)
+NME,100 * sum(abs(CMAQ-observed)) / sum(observed)
+Sensitivity,TP / (TP + FN): fraction of observed exceedances detected by CMAQ
+Specificity,TN / (TN + FP): fraction of observed non-exceedances correctly classified
+Precision (PPV),TP / (TP + FP): fraction of modeled exceedances that were observed exceedances
+Balanced accuracy,Mean of sensitivity and specificity
+F1 score,Harmonic mean of sensitivity and precision
+Critical success index,TP / (TP + FP + FN)
+Frequency bias,Modeled exceedance count / observed exceedance count; 1 is unbiased frequency
+Wilson 95% CI,"Binomial Wilson score interval for sensitivity, specificity, and precision"

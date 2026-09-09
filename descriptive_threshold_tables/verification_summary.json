@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "source_rows": 187069,
+  "primary_rows": 187051,
+  "quarantined_rows": 18,
+  "overall_descriptive_recomputed": true,
+  "overall_confusion_matrices_recomputed": true,
+  "annual_confusion_matrix_accounting": true,
+  "rate_bounds_checked": true
+}

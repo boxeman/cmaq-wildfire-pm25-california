@@ -1,0 +1,27 @@
+{
+  "title": "Reproducibility package for evaluating CMAQ representation of wildfire PM2.5 in California 2008–2018",
+  "version": "1.0.0",
+  "description": "Frozen data, code, fold assignments, metrics, figures, and recalculated tables supporting a California fire-season evaluation of CMAQ PM2.5 and a leakage-resistant Random Forest diagnostic.",
+  "upload_type": "software",
+  "access_right": "open",
+  "language": "eng",
+  "keywords": ["wildfire PM2.5", "CMAQ", "model evaluation", "California", "Random Forest", "reproducibility"],
+  "creators": [
+    {"name": "Perez-Chavez, Jose", "affiliation": "Howard University"},
+    {"name": "Elum, Daja", "affiliation": "Howard University"},
+    {"name": "Oyelowo, Olutoyosi", "affiliation": "Howard University"},
+    {"name": "Bonilla, Eimy X.", "affiliation": "Howard University"},
+    {"name": "Kane, Samuel", "affiliation": "Howard University"},
+    {"name": "Connolly, Rachel E.", "affiliation": "University of California, Los Angeles"},
+    {"name": "Marlier, Miriam E.", "affiliation": "University of California, Los Angeles"},
+    {"name": "Jung, Jihoon", "affiliation": "University of North Carolina at Chapel Hill"},
+    {"name": "Al-Hamdan, Mohammad", "affiliation": "University of Mississippi"},
+    {"name": "Schollaert, Claire L.", "affiliation": "University of California, Los Angeles"},
+    {"name": "Flunker, John C.", "affiliation": "University of Iowa"},
+    {"name": "Lee, Huikyo", "affiliation": "NASA Jet Propulsion Laboratory"},
+    {"name": "Bhattacharya, Sambit", "affiliation": "Fayetteville State University"},
+    {"name": "Blaszczak-Boxe, Christopher", "affiliation": "Howard University"},
+    {"name": "Wilkins, Joseph L.", "affiliation": "Howard University"}
+  ]
+}
+

@@ -1,0 +1,54 @@
+{
+  "workflow": "Bonilla et al leakage-resistant CMAQ error rerun",
+  "random_seed": 20260905,
+  "grouping_unit": "site_id-year",
+  "test_group_fraction": 0.2,
+  "cv_folds": 5,
+  "target": "cmaq_total_pm25 - observed_pm25",
+  "primary_features": [
+    "cmaq_fire_pm25",
+    "latitude",
+    "longitude",
+    "year",
+    "month",
+    "dayofyear",
+    "distance_to_fire_km",
+    "distance_to_fire_missing",
+    "n_obs_records"
+  ],
+  "prohibited_primary_features": [
+    "observed_pm25",
+    "cmaq_total_pm25",
+    "cmaq_nofire_pm25",
+    "pm25_regime",
+    "fire_name",
+    "fire_window_tag"
+  ],
+  "primary_qc_rule": "observed_pm25 in [0,557]; cmaq_total_pm25 <= 557; no capping/winsorization",
+  "sensitivity_rule": "retain all otherwise-valid rows, including cmaq_total_pm25 > 557",
+  "n_full_hard_valid": 187069,
+  "n_primary": 187051,
+  "n_quarantined": 18,
+  "n_groups": 2139,
+  "n_test_groups": 428,
+  "rf_parameters": {
+    "n_estimators": 160,
+    "max_depth": 24,
+    "min_samples_leaf": 10,
+    "max_features": 0.7,
+    "n_jobs": -1,
+    "random_state": 20260905
+  },
+  "second_ale_feature": "longitude",
+  "data_file_name": "paired_cmaq_aqs_fireseason_2008_2018.csv",
+  "data_sha256": "f2e278ad52373f3a1a6f3d5b01f20f38d9c948d261ea34fe7e4941a33265070d",
+  "versions": {
+    "python": "3.12.14",
+    "numpy": "2.5.2",
+    "pandas": "3.0.1",
+    "scipy": "1.18.1",
+    "scikit_learn": "1.9.0",
+    "matplotlib": "3.11.1"
+  },
+  "metric_note": "R2 is sklearn's coefficient of determination; Pearson r is reported separately and is not squared or relabelled."
+}

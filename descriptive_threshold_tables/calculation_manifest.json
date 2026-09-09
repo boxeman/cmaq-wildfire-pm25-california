@@ -1,0 +1,13 @@
+{
+  "source_file": "paired_cmaq_aqs_fireseason_2008_2018.csv",
+  "source_sha256": "f2e278ad52373f3a1a6f3d5b01f20f38d9c948d261ea34fe7e4941a33265070d",
+  "thresholds_ug_m3": [
+    12.0,
+    35.0
+  ],
+  "primary_qc": "Observed PM2.5 in [0,557]; CMAQ total PM2.5 <=557; no capping",
+  "sensitivity": "All otherwise-valid paired rows, including CMAQ total PM2.5 >557",
+  "n_hard_valid": 187069,
+  "n_primary": 187051,
+  "n_quarantined": 18
+}

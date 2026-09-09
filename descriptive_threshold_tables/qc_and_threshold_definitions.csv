@@ -1,0 +1,7 @@
+item,value,unit,definition
+Source paired rows passing hard validity,187069,rows,"June-October; complete core variables; observed PM2.5 in [0,557]"
+Primary-QC rows,187051,rows,Hard-valid rows with CMAQ total PM2.5 <=557 ug/m3
+Quarantined extreme CMAQ rows,18,rows,CMAQ total PM2.5 >557 ug/m3; retained only in raw sensitivity
+Source SHA-256,f2e278ad52373f3a1a6f3d5b01f20f38d9c948d261ea34fe7e4941a33265070d,hash,paired_cmaq_aqs_fireseason_2008_2018.csv
+Threshold 12,12,ug/m3,Observed/modelled daily paired classification; event is value >= threshold
+Threshold 35,35,ug/m3,Observed/modelled daily paired classification; event is value >= threshold

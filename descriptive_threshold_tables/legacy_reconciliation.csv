@@ -1,0 +1,13 @@
+manuscript_table,metric,legacy_reported,recalculated_primary,recalculated_raw_sensitivity,interpretation
+Table S3 high regime,n_pairs,2160.0,2151.0,2160.0,Primary excludes 9 high-regime CMAQ extremes; raw sensitivity reproduces legacy count.
+Table S3 high regime,mean_error_ug_m3,-3.34,-9.791440232942996,-3.342039967954889,Raw sensitivity reproduces legacy rounded value; primary result changes materially.
+Table S3 high regime,mae_ug_m3,38.22,31.944129664062682,38.219631721146605,Raw sensitivity reproduces legacy rounded value; primary result changes materially.
+Table S3 high regime,rmse_ug_m3,150.37,50.875815319974755,150.3744772357688,Raw sensitivity reproduces legacy rounded value; primary result changes materially.
+Table 2S Klamath,r_squared,0.66,0.6632122935102098,0.6632122935102098,Reproduces after rounding.
+Table 2S Klamath,mae_ug_m3,15.75,12.67250440562218,12.67250440562218,Does not reproduce from the current 958 paired fire-window rows.
+Table 2S Klamath,rmse_ug_m3,29.37,23.33182968568543,23.33182968568543,Does not reproduce from the current 958 paired fire-window rows.
+Table 2S Klamath,mean_bias_ug_m3,13.04,8.562559935175459,8.562559935175459,Does not reproduce; no quarantined extremes occur in 2008.
+Table 2S Rim,r_squared,0.42,0.41624638312654416,0.41624638312654416,Reproduces after rounding.
+Table 2S Rim,mae_ug_m3,3.88,3.8756298888365635,3.8756298888365635,Reproduces after rounding.
+Table 2S Rim,rmse_ug_m3,6.57,6.57083173828186,6.57083173828186,Reproduces after rounding.
+Table 2S Rim,mean_bias_ug_m3,-0.93,-0.9288606083344914,-0.9288606083344914,Reproduces after rounding.

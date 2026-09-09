@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "execution": "Notebook executed end-to-end in a clean virtual environment",
+  "run_full_analysis": true,
+  "data_path_resolved": true,
+  "output_directory": "reproduction_check",
+  "fold_assignments_exact": true,
+  "core_tables_compared_in_notebook": 7,
+  "files_compared_in_independent_verification": 10,
+  "replacement_figures_exact_sha256_match": true,
+  "numeric_tolerance": 1e-12,
+  "canonical_outputs_overwritten": false,
+  "analysis_dependencies_pinned": true,
+  "notebook_execution_dependencies_pinned": true
+}
