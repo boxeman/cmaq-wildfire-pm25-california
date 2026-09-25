@@ -7,10 +7,10 @@
   "language": "eng",
   "keywords": ["wildfire PM2.5", "CMAQ", "model evaluation", "California", "Random Forest", "reproducibility"],
   "creators": [
+    {"name": "Bonilla, Eimy X.", "affiliation": "Howard University"},
     {"name": "Perez-Chavez, Jose", "affiliation": "Howard University"},
     {"name": "Elum, Daja", "affiliation": "Howard University"},
     {"name": "Oyelowo, Olutoyosi", "affiliation": "Howard University"},
-    {"name": "Bonilla, Eimy X.", "affiliation": "Howard University"},
     {"name": "Kane, Samuel", "affiliation": "Howard University"},
     {"name": "Connolly, Rachel E.", "affiliation": "University of California, Los Angeles"},
     {"name": "Marlier, Miriam E.", "affiliation": "University of California, Los Angeles"},
@@ -20,8 +20,8 @@
     {"name": "Flunker, John C.", "affiliation": "University of Iowa"},
     {"name": "Lee, Huikyo", "affiliation": "NASA Jet Propulsion Laboratory"},
     {"name": "Bhattacharya, Sambit", "affiliation": "Fayetteville State University"},
+    {"name": "Ajoku, Osinachi", "affiliation": "Howard University"},
     {"name": "Blaszczak-Boxe, Christopher", "affiliation": "Howard University"},
     {"name": "Wilkins, Joseph L.", "affiliation": "Howard University"}
   ]
 }
-

@@ -8,6 +8,9 @@ doi: 10.5281/zenodo.22677978
 repository-code: "https://github.com/boxeman/cmaq-wildfire-pm25-california"
 abstract: "Frozen data, code, fold assignments, metrics, figures, and recalculated tables supporting a California fire-season evaluation of CMAQ PM2.5 and a leakage-resistant Random Forest diagnostic."
 authors:
+  - given-names: Eimy X.
+    family-names: Bonilla
+    affiliation: Howard University
   - given-names: Jose
     family-names: Perez-Chavez
     affiliation: Howard University
@@ -16,9 +19,6 @@ authors:
     affiliation: Howard University
   - given-names: Olutoyosi
     family-names: Oyelowo
-    affiliation: Howard University
-  - given-names: Eimy X.
-    family-names: Bonilla
     affiliation: Howard University
   - given-names: Samuel
     family-names: Kane
@@ -47,6 +47,9 @@ authors:
   - given-names: Sambit
     family-names: Bhattacharya
     affiliation: Fayetteville State University
+  - given-names: Osinachi
+    family-names: Ajoku
+    affiliation: Howard University
   - given-names: Christopher
     family-names: Blaszczak-Boxe
     affiliation: Howard University

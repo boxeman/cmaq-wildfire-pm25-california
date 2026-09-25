@@ -51,7 +51,7 @@ The frozen input SHA-256 is `f2e278ad52373f3a1a6f3d5b01f20f38d9c948d261ea34fe7e4
 
 Please cite the archived version used for the manuscript:
 
-> Perez-Chavez, J., et al. (2026). *Reproducibility package for evaluating CMAQ representation of wildfire PM2.5 in California 2008–2018* (Version 1.0.0). Zenodo. https://doi.org/10.5281/zenodo.22677978
+> Bonilla, E. X., et al. (2026). *Reproducibility package for evaluating CMAQ representation of wildfire PM2.5 in California 2008–2018* (Version 1.0.0). Zenodo. https://doi.org/10.5281/zenodo.22677978
 
 The version DOI identifies the exact frozen release. The concept DOI, `10.5281/zenodo.22677977`, resolves to the latest archived version.
 
